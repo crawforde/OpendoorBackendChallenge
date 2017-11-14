@@ -16,9 +16,9 @@
 2. Submit queries to /listings endpoint.
 
 ##### Meaningful Query Parameters:
-min_price: The minimum listing price in dollars.
-max_price: The maximum listing price in dollars.
-min_bed: The minimum number of bedrooms.
-max_bed: The maximum number of bedrooms.
-min_bath: The minimum number of bathrooms.
-max_bath: The maximum number of bathrooms.
+... min_price: The minimum listing price in dollars.
+... max_price: The maximum listing price in dollars.
+... min_bed: The minimum number of bedrooms.
+... max_bed: The maximum number of bedrooms.
+... min_bath: The minimum number of bathrooms.
+... max_bath: The maximum number of bathrooms.
