@@ -1,8 +1,8 @@
-# OpendoorBackendChallenge
+# Opendoor Backend Challenge
 
 ### Getting Started
 
-##### Running local:
+##### Running Local:
 
 1. Clone GitHub repo.
 2. In terminal: ```npm install```
