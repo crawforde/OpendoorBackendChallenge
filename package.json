@@ -4,7 +4,8 @@
   "description": "2 hour backend chellenge from Opendoor",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/crawforde/opendoorBackendChallenge#readme",
   "dependencies": {
-    "express": "^4.16.2",
+    "bluebird": "^3.5.1",
+    "csv-parse": "^2.0.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
     "nodemon": "^1.12.1"
   }
 }
