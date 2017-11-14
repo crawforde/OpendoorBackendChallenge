@@ -4,8 +4,14 @@ var router = require('./routes/routes');
 
 var app = express();
 
-app.get('/', function(req, res){
-  res.send('Hello World');
+app.get('/', function(req, res, next){
+  if(Object.keys(req.query).length > 0){
+    next();
+  }
+  else{
+    res.send("Please provide query parameters.");
+  }
+
 });
 
 app.use(router);
