@@ -13,8 +13,8 @@ app.get('/', function(req, res, next){
 //Include routes for data querying
 app.use('/listings', router);
 
-// Listen on port 3000 or process.env.port, if it is available.
-app.listen(process.env.port || 3000);
+// Listen on port 3000 or process.env.PORT, if it is available.
+app.listen(process.env.PORT || 3000);
 console.log('Express started on port 3000');
 
 
