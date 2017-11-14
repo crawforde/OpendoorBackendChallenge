@@ -1,0 +1,12 @@
+// Got started with boiler plate from https://github.com/expressjs/express.git under /examples/hello-world
+
+var express = require('express');
+
+var app = express();
+
+app.get('/', function(req, res){
+  res.send('Hello World');
+});
+
+app.listen(3000);
+console.log('Express started on port 3000');
