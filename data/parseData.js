@@ -2,8 +2,10 @@
 var Promise = require('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
 var parse = Promise.promisify(require('csv-parse'));
+var testingMode = false;
 
-fs.readFileAsync(`${__dirname}/testData.csv`,'utf8')
+
+fs.readFileAsync(`${__dirname}/${testingMode ? 'testData.csv' : 'backendChallengeData.csv'}`,'utf8')
   .then((input,readErr)=>{
     if(readErr){
       throw("can't read data: " + readErr);

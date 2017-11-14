@@ -23,7 +23,8 @@
     "bluebird": "^3.5.1",
     "csv-parse": "^2.0.0",
     "express": "^4.16.2",
-    "geojson": "^0.5.0"
+    "geojson": "^0.5.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
